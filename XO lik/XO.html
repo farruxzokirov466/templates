@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>XO</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="XO.css">
+</head>
+<body >
+	<div class="container" >
+		<div class="player  container" >
+			<div class="row" >
+
+				<div id="tanlov" class="col-sm-3 bg-light" >
+                       <h4 class="text-secondary">Player 1</h4>
+		          	<div class="row">
+
+		            	<div class="col-sm-6">
+		                    <input id="X" class="btn btn-primary" type="button" name="" value="X">
+		                </div>
+
+		                <div class="col-sm-6">
+		                    <input id="O" class="btn btn-danger" type="button" name="" value="O">
+		                </div>
+		            </div>                      
+				</div>
+				<div id="tanlov1" class="col-sm-3 bg-light" >		            	
+		                    <input id="New" class="btn btn-success" type="button" name="" value="New game">		                
+		                    <input id="Con" class="btn btn-danger" type="button" name="" value="Continue game">                               
+				</div>
+
+
+			<div class="col-sm-3 sum">
+			    <b id="play1" class="p1 bg-light ">Player 1</b><p id="p-1" style="float: right;"></p>
+			    
+			</div>
+		
+		    <div class="col-sm-3 sum">
+			    <b id="play2" class="p2 bg-light">Player 2</b><p id="p-2" style="float: left;"></p>
+			    
+			</div>
+
+			</div>
+
+		</div>
+		<h1 id="tablo">Player 1</h1>
+        
+		<div class="row">
+		    <div class="col-sm-3"></div>
+		    <div class="col-sm-6">
+		    	<div class="row" style="margin-top: 30px;">
+		    		<div class="a col-sm-4"><input class="but" readonly id="one"></input></div>
+		    		<div class="a col-sm-4"><input class="but" readonly id="two"></input></div>
+		    		<div class="a col-sm-4"><input class="but" readonly id="tre"></input></div>
+		    	</div>
+		    	<div class="row" >
+		    		<div class="a col-sm-4"><input class="but" readonly id="four"></input></div>
+		    		<div class="a col-sm-4"><input class="but" readonly id="five"></input></div>
+		    		<div class="a col-sm-4"><input class="but" readonly id="six"></input></div>
+		    	</div>
+		    	<div class="row" >
+		    		<div class="a col-sm-4"><input class="but" readonly id="svn"></input></div>
+		    		<div class="a col-sm-4"><input class="but" readonly id="eight"></input></div>
+		    		<div class="a col-sm-4"><input class="but" readonly id="nine"></input></div>
+		    	</div>
+		    </div>
+		    
+		</div>
+	</div>
+
+
+</body>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="XO.js"></script>
+</html>

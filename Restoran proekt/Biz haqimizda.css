@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar1{
+   background-color:  white;
+    padding: 0px;
+     font-size: 16px;
+    height: 80px;
+     margin-bottom:0px;
+     box-shadow: 0 0 10px 0 black;
+     font-family: serif;
+}
+.brand{
+    margin-left: 80px;
+    display: inline-flex;
+    height: 80px;
+    text-align: center;   
+}
+a:hover{
+    text-decoration: none;
+}
+.one:hover{
+    color: #000;
+    text-decoration: none;
+    border-radius: 10px;
+     box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24);
+}
+.one:active{
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    margin:auto;
+}
+.logo_name {
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 700;
+    color: #000;
+    display: inline-flex;    
+}
+.logo_name2{
+    font-size: 30px;
+    color: rgba(255, 57, 73, 1);
+    display: inline-flex;
+}
+
+.nav1{
+    float: right;
+    margin-top: 10px;
+    display: inline-flex;
+    margin-right: 40px;
+}
+.one{
+    color: black;
+}
+
+.nav2{
+    display: none;
+}
+.dropbtn{
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 40px;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 5px;
+    float: right;
+    padding: 0px 15px;
+}
+.dropbtn:focus{
+    outline: none;
+}
+.dropdown-content{
+    display: none;
+    margin-top: -50px !important;
+    width: 100%;
+    text-align: center;
+    line-height: 0.8;
+    box-shadow: 0 10px 10px -10px black;
+}
+.dropdown-content a{
+    padding: 12px 16px;
+    text-decoration: none;
+    display: none;    
+}
+.dropdown-content .two{
+    color: black;
+}
+.dropdown-content a:hover{
+    background-color: black;
+    opacity: 0.7;
+    color: white; 
+}
+
+@media only screen and (max-width: 1020px) {
+  .nav2 {
+    display: block;
+    float: right;
+    margin-top: 5px;
+    display: inline-flex;
+  }
+  .nav1 {
+    display: none;
+  }
+  .dropdown-content a{
+    display: block;
+  }
+}
+
+
+.col{
+    width: 45%;
+}
+.col1{
+    width: 27.5%;
+    margin-top: 150px;
+}
+.col2{
+    width: 27.5%;
+    margin-top: 105px;
+}
+.title{
+    font-family: Brush Script MT, Brush Script Std;
+    position: absolute;
+    font-size: 40px;
+    color: rgba(255, 37, 34, 1);
+    margin-left: -10px;
+}
+.title2{
+    margin-top: 30px;
+    font-family:  Impact, fantasy;
+    font-size: 35px;
+}
+.uz{
+    color: rgba(255, 37, 34, 1);;
+}
+.paragraph{
+    margin-left: -10px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    margin-top: 25px;
+}
+.photo{
+    width: 600px;
+    transform: scaleX(-1);
+    margin-left: -250px;
+}
+
+.bron{
+    background-color: rgba(227, 34, 37, 1);
+    height: 600px;
+    width: 400px;
+}
+.col11{
+    width: 15%;
+}
+.col22{
+    width: 70%;
+}
+
+.title-form{
+    margin-top: 120px;
+    color: #fff;
+}
+.inputs{
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    padding: 0 10px;
+}
+.inputs:focus{
+    outline: none;
+}
+.inputs-button{
+    width: 100%;
+    height: 40px;
+    margin-top: 35px;
+    font-size: 30px;
+    font-family: fantasy;
+}
+.inputs-button:focus{
+    outline: none;
+}
+input[type=submit]{
+    font-size: 20px;
+}
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+ input::-webkit-input-placeholder {
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+  font-family: cursive;
+  font-size: 15px;
+  color:  rgba(191, 34, 37, 1);
+}

@@ -1,0 +1,97 @@
+.p1{
+	text-align: left;
+	margin-top: 30px;
+	float: left;
+	border: 1px solid ;
+	padding-left:  40px;
+	padding-right: 40px;
+	font-size: 18px;
+	border-radius: 10px;
+
+}
+
+.sum{
+	width: 50%;
+}
+.p2{
+	margin-top: 30px;
+	text-align: right;
+	float: right;
+	border: 1px solid ;
+	padding-left:  40px;
+	padding-right: 40px;
+	font-size: 18px;
+	border-radius: 10px;
+}
+p{
+	margin-top: 30px;
+	font-size: 25px;
+	
+}
+h1{
+	text-align: center;
+}
+.a{
+	border: 1px solid #ced4da;
+	width: 33%;
+	height: 150px;
+	padding: 0px;
+	
+}
+
+.a:hover{
+	outline: 2px  #17a2b8;
+	outline-style: dashed;
+	opacity: 0.7;
+}
+#p-2{
+	display: none;
+	color: red;
+}
+#p-1{
+	color: blue;
+}
+
+.but{
+	padding: 0px;
+	font-size: 150px;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	border: none;
+	color: red;
+	cursor: pointer;
+	text-align: center;
+}
+#X{ 
+	margin-top: 10px;
+	width: 60px;
+}
+#O{ 
+	margin-top: 10px;
+	width: 60px;
+}
+#tanlov{
+	text-align: center;
+	margin-top: 30px;
+	border: 2px dashed #ced4da;
+	padding: 10px;
+	height: 120px;
+}
+#tanlov1{
+	text-align: center;
+	margin-top: 30px;
+	border: 2px dashed #ced4da;
+	padding: 10px;
+	display: none;
+	height: 120px;
+}
+#New{
+    margin-top: 10px;
+	width: 120px;
+
+}
+#Con{
+	margin-top: 10px;
+	width: 150px;
+}
